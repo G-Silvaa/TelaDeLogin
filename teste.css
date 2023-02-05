@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Unbounded:wght@200&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background-image: url(fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 150px;
+   
+
+}
+
+.card {
+    background-color: #0a0a0ad7;
+    padding: 40px;
+    padding-bottom: 200px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 3px 3px #fffdfd87;
+    
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+
+.label-float input {
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #f50303c1;
+    background-color: transparent;
+    outline: none;
+    min-width: 200px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 20px;
+    color: rgb(249, 243, 243);
+   
+
+}
+
+.label-float {
+    position: relative;
+    padding-top: 13px;
+    margin: 5px;
+    
+}
+
+.label-float input:focus {
+    border-bottom: 2px solid red;
+}
+
+.label-float label {
+    color: rgba(255, 255, 255, 0.386);
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+}
+
+.label-float input:focus+label {
+    color: rgba(248, 248, 255, 0.293);
+    font-size: 13px;
+}
+
+button {
+    background-color: transparent;
+    border-color: red;
+    color: rgba(248, 248, 255, 0.293);
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s ease-out;
+
+}
+
+button:hover {
+    background-color: rgba(248, 248, 255, 0.293);
+    color: rgba(248, 248, 255, 0.293);
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-color: rgba(255, 255, 255, 0.796);
+
+}
+
+p {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+a {
+    color: rgba(255, 0, 0, 0.578);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    transition: all .3s ease-out;
+}
